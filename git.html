@@ -44,13 +44,12 @@
 								<section style="color:black">
 									<ol>
 										<li>Download and open 64-bit Git Portable (<a href="https://git-scm.com/download/win">https://git-scm.com/download/win</a>)</li>
-										<li>Open the PortableGit folder in your Downloads folder</li>
+										<li>Open the PortableGit folder in your Downloads folder and open git-bash.exe</li>
 										<li>Run the following commands:</li>
 										<ul>
 											<li>git config --global user.name “YourNameHere”</li>
 											<li>git config --global user.email “YourEmailHere”</li>
 											<li>mkdir folder</li>
-											<li>cd folder</li>
 										</ul>
 										<li>Go to <a href="https://gitea.eiucs.club">gitea.eiucs.club</a></li>
 										<li>Register an account (this is not publicly accessible, nor will it stay around after this workshop, so feel free to type in a fake email and an easy password)</li>
@@ -58,8 +57,9 @@
 										<li>Fork the repository (button on the top-right side of the repository)</li>
 										<li>Enter the following commands</li>
 										<ul>
-											<li>git clone https://gitea.eiucs.club/yourusername/git-workshop.git</li>
+											<li>git clone https://gitea.eiucs.club/yourusername/git-workshop.git ./folder</li>
 											<li>git init</li>
+											<li>cd folder</li>
 											<li>cd coolpeople</li>
 											<li>echo Your Name > yourname.txt</li>
 											<li>git add .</li>
@@ -67,7 +67,7 @@
 											<li>git push -u origin main</li>
 										</ul>
 										<li>A prompt should come up, select the UI option and enter your credentials for Gitea</li>
-										<li>You should be able to see your changes by directing your browser to <a href="https://gitea.eiucs.club/yourusername/git-workshop">https://gitea.eiucs.club/yourusername/git-workshop</a></li>
+										<li>You should be able to see your changes by directing your browser to <a href="https://gitea.eiucs.club/">https://gitea.eiucs.club/yourusername/git-workshop</a></li>
 										<li>Go back to <a href="https://gitea.eiucs.club/will/git-workshop">https://gitea.eiucs.club/will/git-workshop</a></li>
 										<li>Go to the pull requests tab</li>
 										<li>Create a new pull request</li>
