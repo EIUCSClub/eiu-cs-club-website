@@ -10,3 +10,5 @@ Do you want to contribute to the site? Fix a typo, add content, etc? Great! Here
 2. Make your changes on your fork
 3. Submit a pull request to request to merge your changes with the site
 4. Once the PR is approved, you're done!
+
+Contribution guide in video form: https://youtu.be/XII2MSEEaQs
